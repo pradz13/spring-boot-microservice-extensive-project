@@ -1,2 +1,20 @@
 # spring-boot-microservice-extensive-project
-Extensive Project for Spring Boot Microservices
+
+SDKMan set up
+=============
+Install SDKMan with the following command -
+curl -s "https://get.sdkman.io" | bash
+
+After installation, run the following command to list the available SDKs
+sdk list java
+
+Install a JDK with the command -
+sdk install java <jdk name>
+
+The configuration is available in the following file -
+cat ~/.sdkman/etc/config
+
+Update the following config to true
+sdkman_auto_env=true
+
+Add .sdkmanrc file with java and maven version
