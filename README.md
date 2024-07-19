@@ -18,3 +18,13 @@ Update the following config to true
 sdkman_auto_env=true
 
 Add .sdkmanrc file with java and maven version
+
+Maven Wrapper Set up
+=====================
+Maven wrapper helps when there in no Maven installed in the machine where the maven commands need to be run.
+
+Run the command -
+mvn wrapper:wrapper
+
+Run the maven command like-
+./mvnw clean package
